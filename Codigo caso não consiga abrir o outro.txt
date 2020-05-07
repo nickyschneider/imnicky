@@ -1,0 +1,31 @@
+def criaSequenciaIntervalo(inicio, fim):
+  lista = []
+  for i in range(inicio, fim+1):
+    lista.append(i)
+  return lista
+
+
+def calculaProdutorioLista(listaInteiro):
+  produtorio = 1
+  for i in listaInteiro:
+    produtorio *= i
+  return produtorio 
+  
+
+
+
+m = int(input('Digite um número inteiro (início): '))
+n = int(input('Digite um número inteiro (fim): '))
+
+while m > n:
+  print('Erro! Início deve ser menor que fim!')
+  m = int(input('Digite um número inteiro (início): '))
+  n = int(input('Digite um número inteiro (fim): '))
+
+
+
+lista = criaSequenciaIntervalo(m, n)
+prod = calculaProdutorioLista(lista)
+print(lista)
+print('Produtorio de %d a %d: %d' % (m, n, prod))
+
