@@ -1,0 +1,12 @@
+----------------------------------------------------------------------------
+Este é o arquivo README do projeto. Você deve descrever aqui o seu projeto.
+Informe ao usuário (alguém que não sabe nada sobre este projeto!) tudo que
+ele/ela precisa saber. Os comentários devem incluir, pelo menos:
+------------------------------------------------------------------------
+
+TITULO DO PROJETO: Trabalho Grau A
+OBJETIVO DO PROJETO: Criar um programa em Java capaz de representar alunos de uma disciplina, bem como suas informações principais e notas.
+VERSÃO ou DATA: 28/04/2020
+COMO INICIAR O PROJETO: 
+AUTORES: Nicolas Schneider Vale e Gustavo Bays de Oliveira
+INSTRUÇÕES PARA O USUÁRIO: 
